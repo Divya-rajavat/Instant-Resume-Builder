@@ -1,0 +1,93 @@
+/* Common styles */
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 0;
+}
+
+.heading {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+}
+
+.colors .color {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #239ce2;
+}
+
+.colors .active {
+  border: 2px solid #000;
+}
+
+.toolbar .dbutton {
+  padding: 8px 16px;
+  border-radius: 5px;
+  width: 140px;
+  background-color: #239ce2;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.toolbar button svg {
+  height: 20px;
+  width: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .colors {
+    padding: 0;
+  }
+
+  .toolbar button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.2rem;
+  }
+}
