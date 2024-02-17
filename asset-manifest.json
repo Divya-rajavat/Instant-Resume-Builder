@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/Instant-Resume-Builder/static/css/main.f4cdff0f.css",
-    "main.js": "/Instant-Resume-Builder/static/js/main.e68d333a.js",
-    "static/media/bg-img.png": "/Instant-Resume-Builder/static/media/bg-img.3724b0fb6797831651ca.png",
+    "main.css": "/Instant-Resume-Builder/static/css/main.3edae814.css",
+    "main.js": "/Instant-Resume-Builder/static/js/main.46bcfc1a.js",
     "static/media/resume.svg": "/Instant-Resume-Builder/static/media/resume.747b0dd9d4a36a4fe054ab84b590ebfb.svg",
     "index.html": "/Instant-Resume-Builder/index.html",
-    "main.f4cdff0f.css.map": "/Instant-Resume-Builder/static/css/main.f4cdff0f.css.map",
-    "main.e68d333a.js.map": "/Instant-Resume-Builder/static/js/main.e68d333a.js.map"
+    "main.3edae814.css.map": "/Instant-Resume-Builder/static/css/main.3edae814.css.map",
+    "main.46bcfc1a.js.map": "/Instant-Resume-Builder/static/js/main.46bcfc1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4cdff0f.css",
-    "static/js/main.e68d333a.js"
+    "static/css/main.3edae814.css",
+    "static/js/main.46bcfc1a.js"
   ]
 }
